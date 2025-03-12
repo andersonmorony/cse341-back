@@ -5,7 +5,7 @@
     "description": "API for CSE341 Project 1",
     "version": "1.0.0"
   },
-  "host": "https://cse341-node-dz2a.onrender.com",
+  "host": "cse341-node-dz2a.onrender.com",
   "basePath": "/",
   "schemes": [
     "http", "https"
