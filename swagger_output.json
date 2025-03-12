@@ -7,8 +7,15 @@
   },
   "host": "cse341-node-dz2a.onrender.com",
   "basePath": "/",
-  "schemes": [
-    "http", "https"
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "description": "Development server"
+    },
+    {
+      "url": "https://cse341-node-dz2a.onrender.com/",
+      "description": "Production server"
+    }
   ],
   "paths": {
     "/": {
